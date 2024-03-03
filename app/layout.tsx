@@ -7,6 +7,7 @@ import { Footer } from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Next Tour",
   description: "The best option for your dream tour",
+  icons: "/fox.svg"
 };
 
 export default function RootLayout({

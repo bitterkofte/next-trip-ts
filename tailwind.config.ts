@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        "nextOrange": "#e97624",
         green: {
           50: '#30AF5B',
           90: '#292C27',
@@ -28,6 +29,13 @@ module.exports = {
         yellow: {
           50: '#FEC601',
         },
+      },
+      dropShadow: {
+        'navLink': [
+            '0 0 10px rgba(48, 175, 91, 0.96)',
+            '0 0 15px rgba(48, 175, 91, 0.66)',
+            '0 0 20px rgba(48, 175, 91, 0.46)'
+        ]
       },
       backgroundImage: {
         'bg-img-1': "url('/img-1.png')",
